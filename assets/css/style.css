@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: black;
+}
+.container {
+  padding: 25px;
+  padding-top: 10px;
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding: 25px;
+  border-radius: 5px;
+
+  background-color: rgb(108, 117, 125);
+}
+
+h1 {
+  padding-bottom: 15px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(28, 70, 81);
+  border-top: 1px solid rgb(28, 70, 81);
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#clp {
+  margin-top: 5px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.selector {
+  margin-top: 5px;
+  width: 208px;
+  height: 33px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.buscar {
+  background-color: rgb(65, 208, 244);
+  color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  width: 208px;
+  height: 33px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.total {
+  margin-top: 15px;
+}
